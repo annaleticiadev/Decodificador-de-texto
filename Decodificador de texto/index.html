@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <textarea class="area-de-texto" cols= "41" rows= "4" placeholder="Digite seu texto"></textarea>
+            <div>
+                <h6>Apenas letras minúsculas e sem acento.</h6>
+            </div>
+            <div class="botoes">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="btn-desencriptar" onclick="btnDescriptar()">Descriptografar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensagem" cols= "20" rows= "10"></textarea>
+            <button class="btn-copiar" onclick="copiar()">Copiar</button>
+        </section>
+    </main>
+    <footer class="rodape">
+        <a href="https://instagram.com/annaletis"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="https://github.com/annaleticiadev"><ion-icon name="logo-github"></ion-icon></a>
+    </footer>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
